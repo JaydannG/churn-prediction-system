@@ -19,5 +19,5 @@ def train(data_path):
 
 
 if __name__ == "__main__":
-    train("data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv")
+    train("../data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv")
     print(f"Model saved to {MODEL_PATH}")
