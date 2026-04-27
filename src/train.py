@@ -17,7 +17,6 @@ def train(data_path):
 
     return pipeline, X_test, y_test
 
-
 if __name__ == "__main__":
-    train("../data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv")
+    train("data/WA_Fn-UseC_-Telco-Customer-Churn.csv")
     print(f"Model saved to {MODEL_PATH}")
